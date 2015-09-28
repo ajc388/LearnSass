@@ -1,0 +1,9 @@
+/*Programmer: Andrew Carter
+**Assignment: Learn SASS P1
+**Description: Use variable to store black, load black into body tag. 
+*/
+$color: #000;
+
+body {
+  color: $color;
+}
