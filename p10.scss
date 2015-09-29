@@ -1,5 +1,7 @@
-@each $big-cat in cheetah, puma, jaguar, panther, tiger, leopard {
-	.#{$big-cat}-picture {
+$catlist: ('cheetah', 'puma', 'jaguar', 'panther', 'tiger', 'leopard');
+
+@each $item in $catlist {
+	.#{$item}-picture {
 		padding: 3em;
 	}
 }
